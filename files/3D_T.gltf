@@ -1,0 +1,283 @@
+{
+    "asset": {
+        "copyright": "2020 (c) Adobe Inc.",
+        "generator": "Adobe Dimension - 0f693b0ede4f4f878c948589cb1cd200001139cd",
+        "version": "2.0"
+    },
+    "accessors": [
+        {
+            "bufferView": 0,
+            "componentType": 5126,
+            "count": 36,
+            "type": "VEC3",
+            "max": [
+                0.09999999403953552,
+                0.19999998807907105,
+                0.09999999403953552
+            ],
+            "min": [
+                -0.10000000894069672,
+                0.0,
+                -0.09999999403953552
+            ]
+        },
+        {
+            "bufferView": 1,
+            "componentType": 5126,
+            "count": 36,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 2,
+            "componentType": 5126,
+            "count": 36,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 3,
+            "componentType": 5125,
+            "count": 36,
+            "type": "SCALAR",
+            "max": [
+                35.0
+            ],
+            "min": [
+                0.0
+            ]
+        },
+        {
+            "bufferView": 4,
+            "componentType": 5126,
+            "count": 17313,
+            "type": "VEC3",
+            "max": [
+                0.3375488519668579,
+                0.03973351791501045,
+                0.29842475056648257
+            ],
+            "min": [
+                -0.3375488519668579,
+                0.0013585500419139863,
+                -0.29842475056648257
+            ]
+        },
+        {
+            "bufferView": 5,
+            "componentType": 5126,
+            "count": 17313,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 6,
+            "componentType": 5126,
+            "count": 17313,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 7,
+            "componentType": 5125,
+            "count": 97230,
+            "type": "SCALAR",
+            "max": [
+                17312.0
+            ],
+            "min": [
+                0.0
+            ]
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 432,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 432,
+            "byteLength": 432,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 864,
+            "byteLength": 288,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 1152,
+            "byteLength": 144,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 1296,
+            "byteLength": 207756,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 209052,
+            "byteLength": 207756,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 416808,
+            "byteLength": 138504,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 555312,
+            "byteLength": 388920,
+            "target": 34963
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 944232,
+            "uri": "3D_T_binary.bin"
+        }
+    ],
+    "cameras": [
+        {
+            "perspective": {
+                "znear": 0.000023766517188050785,
+                "yfov": 0.6024156808853149,
+                "zfar": 2.0,
+                "aspectRatio": 1.3333333730697632
+            },
+            "type": "perspective",
+            "name": "render_camera"
+        }
+    ],
+    "materials": [
+        {
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.6172063946723938,
+                    0.6172063946723938,
+                    0.6172063946723938,
+                    1.0
+                ],
+                "roughnessFactor": 0.02199999988079071
+            },
+            "name": "メタル",
+            "doubleSided": true
+        },
+        {
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.6000000834465027,
+                    0.6000000834465027,
+                    0.6000000834465027,
+                    1.0
+                ],
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.4934999942779541
+            },
+            "name": "T シャツのマテリアル",
+            "doubleSided": true
+        }
+    ],
+    "meshes": [
+        {
+            "name": "PROCEDURAL_MESHES_CUBE#",
+            "primitives": [
+                {
+                    "attributes": {
+                        "TEXCOORD_0": 2,
+                        "NORMAL": 1,
+                        "POSITION": 0
+                    },
+                    "indices": 3,
+                    "material": 0
+                }
+            ]
+        },
+        {
+            "name": "T -E3-82-B7-E3-83-A3-E3-83-84",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 4,
+                        "NORMAL": 5,
+                        "TEXCOORD_0": 6
+                    },
+                    "indices": 7,
+                    "material": 1
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "translation": [
+                0.5,
+                0.29999998211860659,
+                0.4848041534423828
+            ],
+            "rotation": [
+                -0.12059047073125839,
+                0.379409521818161,
+                0.04995020851492882,
+                0.9159756302833557
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                0.9999999403953552
+            ],
+            "camera": 0,
+            "name": "render_camera_n3d"
+        },
+        {
+            "translation": [
+                2.250846037332721e-10,
+                0.0,
+                -0.015195831656455994
+            ],
+            "scale": [
+                1.0472040176391602,
+                0.3576622009277344,
+                0.07983309030532837
+            ],
+            "mesh": 0,
+            "name": "立方体"
+        },
+        {
+            "translation": [
+                0.0,
+                0.6784132122993469,
+                -0.01655438169836998
+            ],
+            "rotation": [
+                0.7071067690849304,
+                0.0,
+                0.0,
+                0.7071067690849304
+            ],
+            "scale": [
+                0.9999999403953552,
+                1.0,
+                1.0
+            ],
+            "mesh": 1,
+            "name": "T シャツ"
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0,
+                1,
+                2
+            ],
+            "name": "scene"
+        }
+    ],
+    "scene": 0
+}
